@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "./planet.png";
+import logo from "./esfera.png";
 import './App.css';
 
 function App() {
@@ -7,14 +7,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello World!</p>
+        <p>Parabens!</p>
+        <p>Você achou seu DEV!</p>
         <a
           className="App-link"
-          href="https://code.org/helloworld"
+          href="https://www.linkedin.com/in/giulianno-zanetti/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Conheca o  Mundo
+          Meu LinkedIn
         </a>
       </header>
     </div>

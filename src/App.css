@@ -5,20 +5,26 @@
 
 }
 @font-face {
-    font-family: 'Minecraft';
-    src: url('../src/assets/Minecraft.ttf');
+    font-family: 'DBZ';
+    src: url('../src/assets/Saiyan-Sans.ttf');
   }
 .App {
   text-align: center;
-  font-family: 'Minecraft';
+  font-family: 'DBZ';
 }
 .App p{
-  color:  yellow;
+  color:  #FFF;
+  font-size: 6.5rem;
 }
 
 .App a {
   text-decoration: none;
-  color: green;
+  font-size: 3.5rem;
+  color: rgb(201, 25, 25);
+}
+.App a:hover{
+  filter:  brightness(0.8);
+  
 }
 
 
@@ -34,7 +40,10 @@
 }
 
 .App-header {
-  background-image: url('./cloud.svg');
+  background-image: url('./planet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,6 +54,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
